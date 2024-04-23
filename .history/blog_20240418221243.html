@@ -46,7 +46,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav navbar-nav-1 ms-lg-6 mb-lg-0 fw-bold">
                     <li class="nav-item">
-                        <a class="nav-link nav-link-hover" href="index.html">
+                        <a class="nav-link nav-link-hover" href="home.html">
                             <span class="nav-link-hover">HOME</span>
                         </a>
                     </li>
@@ -245,152 +245,15 @@
 
 
     <!-- Your code goes here -->
-    <section class="content-wrapper text-primary py-6 bg-white">
+    <section class="content-wrapper text-primary py-6">
         <div class="container section_container">
             <div class="row">
                 <div class="col col-lg-8">
                     <ul id="post-wrapper">
                     </ul>
-                    <div class="comment-wrapper">
-                        <div class="comment-count my-4">
-                            <p class="fs-4 text-black fw-bold">3 Comments</p>
-                        </div>
-                        <div class="comment-content">
-                            <div class="comment d-flex mb-4">
-                                <img src="images/ads-img.png" class="object-fit-cover me-5 rounded-circle" alt=""
-                                    width="50px" height="50px">
-                                <div>
-                                    <div class="comment-box border p-3 rounded-4 d-flex">
-                                        <div>
-                                            <div
-                                                class="comment-box-header align-items-center d-flex flex-row justify-content-between fw-medium">
-                                                <div class="comment-author">
-                                                    <p class="text-black m-0">Joe Doe</p>
-                                                    <a href="#post-comment"
-                                                        class="text-secondary m-0 mt-1 text-decoration-none">Nov
-                                                        26,2021</a>
-                                                </div>
-                                            </div>
-                                            <div class="comment-box-body mt-3 text-black" style="max-width: 670px;">
-                                                <p>This is exactly what i was looking for, thank you so much for these
-                                                    tutorials</p>
-                                            </div>
-                                        </div>
-                                        <div style="width: 120px;">
-                                            <button class="btn btn-warning rounded-2 fs-6 p-2 px-3 fw-medium"
-                                                onclick="reply()" value="1">
-                                                <i class="fa fa-reply" aria-hidden="true"></i>
-                                                <span>REPLY</span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="respond border rounded-4 mt-3 p-3 d-none" value="1"></div>
-                                </div>
-                            </div>
-                            <div class="comment d-flex mb-4">
-                                <img src="images/ads-img.png" class="object-fit-cover me-5 rounded-circle" alt=""
-                                    width="50px" height="50px">
-                                <div>
-                                    <div class="comment-box border p-3 rounded-4 d-flex">
-                                        <div>
-                                            <div
-                                                class="comment-box-header align-items-center d-flex flex-row justify-content-between fw-medium">
-                                                <div class="comment-author">
-                                                    <p class="text-black m-0">Arisu</p>
-                                                    <a href="#post-comment"
-                                                        class="text-secondary m-0 mt-1 text-decoration-none">Nov
-                                                        26,2021</a>
-                                                </div>
-                                            </div>
-                                            <div class="comment-box-body mt-3 text-black" style="max-width: 670px;">
-                                                <p>What a nice article. It keeps me reading more and more!</p>
-                                            </div>
-                                        </div>
-                                        <div style="width: 120px;">
-                                            <button class="btn btn-warning rounded-2 fs-6 p-2 px-3 fw-medium"
-                                                onclick="reply()" value="2">
-                                                <i class="fa fa-reply" aria-hidden="true"></i>
-                                                <span>REPLY</span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="respond border rounded-4 mt-3 p-3 d-none" value="2"></div>
-                                </div>
-                            </div>
-                            <div class="comment d-flex mb-4">
-                                <img src="images/ads-img.png" class="object-fit-cover me-5 rounded-circle" alt=""
-                                    width="50px" height="50px">
-                                <div>
-                                    <div class="comment-box border p-3 rounded-4 d-flex">
-                                        <div>
-                                            <div
-                                                class="comment-box-header align-items-center d-flex flex-row justify-content-between fw-medium">
-                                                <div class="comment-author">
-                                                    <p class="text-black m-0">Harry</p>
-                                                    <a href="#post-comment"
-                                                        class="text-secondary m-0 mt-1 text-decoration-none">Oc
-                                                        12,2022</a>
-                                                </div>
-                                            </div>
-                                            <div class="comment-box-body mt-3 text-black" style="max-width: 670px;">
-                                                <p>It would be great to try this theme for my businesses It would be
-                                                    great to try this theme for my businessesIt would be great to try
-                                                    this theme for my businessesIt would be great to try this theme for
-                                                    my businesses</p>
-                                            </div>
-                                        </div>
-                                        <div style="width: 120px;">
-                                            <button class="btn btn-warning rounded-2 fs-6 p-2 px-3 fw-medium"
-                                                onclick="reply()" value="3">
-                                                <i class="fa fa-reply" aria-hidden="true"></i>
-                                                <span>REPLY</span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="respond border rounded-4 mt-3 p-3 d-none" value="3"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="post-comment" id="post-comment">
-                            <p class="text-black fs-3 fw-bold m-0">Leave a Reply</p>
-                            <p class="text-secondary">Your email address will not be published. Required fields are
-                                marked<span class="text-danger">*</span></p>
-                            <form action="" class="px-3">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <input type="text" class="form-control rounded-5 p-3 ps-4 bg-secondary-subtle"
-                                            placeholder="Your Name *" required>
-                                    </div>
-                                    <div class="col-4">
-                                        <input type="text" class="form-control rounded-5 p-3 ps-4 bg-secondary-subtle"
-                                            placeholder="Email Address *" required>
-                                    </div>
-                                    <div class="col-4">
-                                        <input type="text" class="form-control rounded-5 p-3 ps-4 bg-secondary-subtle"
-                                            placeholder="Your Website">
-                                    </div>
-                                </div>
-                                <div class="row mt-4">
-                                    <div class="col">
-                                        <textarea name="" id=""
-                                            class="form-control rounded-5 p-3 ps-4 bg-secondary-subtle" rows="5"
-                                            placeholder="Comment"></textarea>
-                                    </div>
-                                </div>
-                                <div class="row my-3">
-                                    <div class="col">
-                                        <input type="checkbox" class="me-2"><span class="text-secondary">Save my name,
-                                            email, and website in this browser for the next time I comment.</span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <button type="reset" class="btn btn-warning fw-bold py-3">POST COMMENT<i
-                                                class="fa fa-play-circle ms-2" aria-hidden="true"></i></button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
+                    <div class="pagination-wrapper navbar navbar-expand-sm border-top border-secondary-subtle">
+                        <ul class="navbar-nav pagination" id="pagination">
+                        </ul>
                     </div>
                 </div>
                 <div class="col col-lg-4 d-none d-lg-block">
@@ -410,7 +273,7 @@
                             </div>
                             <ul class="d-flex flex-column">
                                 <li class="cat-item mb-3 d-inline-block" onclick="filterCat('Company News')">
-                                    <a href="BlogClassic.html" class="d-flex flex-row justify-content-between">
+                                    <a href="#" class="d-flex flex-row justify-content-between">
                                         <div>
                                             <span><i
                                                     class="fas fa-chevron-circle-right fa-solid text-primary"></i></span>
@@ -420,7 +283,7 @@
                                     </a>
                                 </li>
                                 <li class="cat-item mb-3 d-inline-block" onclick="filterCat('Electronics')">
-                                    <a href="BlogClassic.html" class="d-flex flex-row justify-content-between">
+                                    <a href="#" class="d-flex flex-row justify-content-between">
                                         <div>
                                             <span><i
                                                     class="fas fa-chevron-circle-right fa-solid text-primary"></i></span>
@@ -430,7 +293,7 @@
                                     </a>
                                 </li>
                                 <li class="cat-item mb-3 d-inline-block" onclick="filterCat('Lifestyle')">
-                                    <a href="BlogClassic.html" class="d-flex flex-row justify-content-between">
+                                    <a href="#" class="d-flex flex-row justify-content-between">
                                         <div>
                                             <span><i
                                                     class="fas fa-chevron-circle-right fa-solid text-primary"></i></span>
@@ -440,7 +303,7 @@
                                     </a>
                                 </li>
                                 <li class="cat-item mb-3 d-inline-block" onclick="filterCat('Social Media')">
-                                    <a href="BlogClassic.html" class="d-flex flex-row justify-content-between">
+                                    <a href="#" class="d-flex flex-row justify-content-between">
                                         <div>
                                             <span><i
                                                     class="fas fa-chevron-circle-right fa-solid text-primary"></i></span>
@@ -450,7 +313,7 @@
                                     </a>
                                 </li>
                                 <li class="cat-item mb-3 d-inline-block" onclick="filterCat('Tips & Tricks')">
-                                    <a href="BlogClassic.html" class="d-flex flex-row justify-content-between">
+                                    <a href="#" class="d-flex flex-row justify-content-between">
                                         <div>
                                             <span><i
                                                     class="fas fa-chevron-circle-right fa-solid text-primary"></i></span>
@@ -475,19 +338,19 @@
                                 <img src="images/footer_divide.png" alt="" style="max-width: 100%;">
                             </div>
                             <div class="tags-wrapper">
-                                <a href="BlogClassic.html" onclick="filterTag('electronics')"
+                                <a href="#" onclick="filterTag('electronics')"
                                     class="tag link-secondary d-inline-block text-decoration-none bg-white p-1 px-3 rounded-3 mb-2 me-2">electronics</a>
-                                <a href="BlogClassic.html" onclick="filterTag('envato')"
+                                <a href="#" onclick="filterTag('envato')"
                                     class="tag link-secondary d-inline-block text-decoration-none bg-white p-1 px-3 rounded-3 mb-2 me-2">envato</a>
-                                <a href="BlogClassic.html" onclick="filterTag('gadgets')"
+                                <a href="#" onclick="filterTag('gadgets')"
                                     class="tag link-secondary d-inline-block text-decoration-none bg-white p-1 px-3 rounded-3 mb-2 me-2">gadgets</a>
-                                <a href="BlogClassic.html" onclick="filterTag('game')"
+                                <a href="#" onclick="filterTag('game')"
                                     class="tag link-secondary d-inline-block text-decoration-none bg-white p-1 px-3 rounded-3 mb-2 me-2">game</a>
-                                <a href="BlogClassic.html" onclick="filterTag('quality')"
+                                <a href="#" onclick="filterTag('quality')"
                                     class="tag link-secondary d-inline-block text-decoration-none bg-white p-1 px-3 rounded-3 mb-2 me-2">quality</a>
-                                <a href="BlogClassic.html" onclick="filterTag('store')"
+                                <a href="#" onclick="filterTag('store')"
                                     class="tag link-secondary d-inline-block text-decoration-none bg-white p-1 px-3 rounded-3 mb-2 me-2">store</a>
-                                <a href="BlogClassic.html" onclick="filterTag('wifi')"
+                                <a href="#" onclick="filterTag('wifi')"
                                     class="tag link-secondary d-inline-block text-decoration-none bg-white p-1 px-3 rounded-3 mb-2 me-2">wifi</a>
                             </div>
                         </div>
@@ -632,9 +495,10 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/navbar-effect.js"></script>
-    <script src="js/blog-details.js"></script>
     <script src="js/data-products.js"></script>
     <script src="js/shopping-cart.js"></script>
+    <script src="js/data-blogs.js"></script>
+    <script src="js/blog.js"></script>
     <script src="js/show-acccount.js"></script>
 </body>
 
